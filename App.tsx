@@ -3,11 +3,11 @@ import { StyleSheet, View , Text} from 'react-native';
 export default function App() {
   return (
     <View style={{backgroundColor:'pink',flex:1}}>
-    <View style={{height:50,width:50,backgroundColor:'orange'}}>
+    <View style={{backgroundColor:'orange',flex:3}}>
     </View>
-    <View style={{height:50,width:50,backgroundColor:'brown'}}>
+    <View style={{backgroundColor:'brown',flex:2}}>
     </View>
-     <View style={{height:50,width:50,backgroundColor:'blue'}}>
+     <View style={{backgroundColor:'blue',flex:1}}>
      </View>
     </View>
   );
